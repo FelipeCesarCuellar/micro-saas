@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projeto Micro SaaS
 
-## Getting Started
+Esse projeto foi desenvolvido durante o Desafio Micro SaaS da #Rocketseat em Abril de 2025, ensinando os conceitos e técnicas aplicados para desenvolver um MVP SaaS de forma rápida, e eficiente.
 
-First, run the development server:
+## Executando o projeto
+
+Primeiro, instale as dependências:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+# ou
+yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Depois, insira as variáveis de ambiente no arquivo .env.local:
+- AUTH_SECRET
+- AUTH_GOOGLE_ID
+- AUTH_GOOGLE_SECRET
+- FIREBASE_PROJECT_ID
+- FIREBASE_CLIENT_EMAIL
+- FIREBASE_PRIVATE_KEY_B64
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Finalmente, execute o projeto em ambiente de desenvolvimento:
+```bash
+npm run dev
+# ou
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Abra a URL [http://localhost:3000](http://localhost:3000) no seu navegador para acessar o App.
 
-## Learn More
+## Documentação das principais ferramentas
 
-To learn more about Next.js, take a look at the following resources:
+Next.js:
+- [Documentatação do Next.js](https://nextjs.org/docs)
+- [Tutorial do Next.js](https://nextjs.org/learn)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Auth.js (ou Nextauth.js):
+- [Referências da biblioteca](https://authjs.dev/reference/overview)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Tailwind CSS:
+- [Documentação do Tailwind](https://tailwindcss.com/docs)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Esse projeto utiliza:
+- [Autenticação via Google](https://developers.google.com/identity/protocols/oauth2?hl=pt-br)
+- [Integrações com o Firebase(https://firebase.google.com/?hl=pt-br)
+- [Deploy na Vercel](https://vercel.com/)
