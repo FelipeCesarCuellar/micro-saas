@@ -1,6 +1,6 @@
 # Projeto Micro SaaS
 
-Esse projeto foi desenvolvido durante o Desafio Micro SaaS da [Rocketseat](https://www.rocketseat.com.br/) em Abril de 2025, ensinando os conceitos e técnicas aplicados para desenvolver um MVP SaaS de forma rápida, e eficiente.
+Esse projeto foi desenvolvido por [mim](https://www.linkedin.com/in/felipe-cesar-cuellar-da-silva-04666424a/) durante o Desafio Micro SaaS da [Rocketseat](https://www.rocketseat.com.br/) em Abril de 2025, ensinando os conceitos e técnicas aplicados para desenvolver um MVP SaaS de forma rápida, e eficiente.
 
 ## Executando o projeto
 
