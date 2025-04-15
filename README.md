@@ -43,5 +43,5 @@ Tailwind CSS:
 
 Esse projeto utiliza:
 - [Autenticação via Google](https://developers.google.com/identity/protocols/oauth2?hl=pt-br)
-- [Integrações com o Firebase(https://firebase.google.com/?hl=pt-br)
+- [Integrações com o Firebase](https://firebase.google.com/?hl=pt-br)
 - [Deploy na Vercel](https://vercel.com/)
